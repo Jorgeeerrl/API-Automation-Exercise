@@ -17,7 +17,28 @@
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
 							"\r",
-							""
+							"pm.test(\"Response Code = 200)\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.responseCode).to.eql(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response tiene una lista de productos\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.be.an('object');\r",
+							"    pm.expect(jsonData.products).to.be.an('array');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Todos los productos tienen los campos requeridos y no están vacíos\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    var CamposRequeridos = [\"id\", \"name\", \"price\", \"brand\", \"category\"];\r",
+							"    \r",
+							"    jsonData.products.forEach(function(producto) {\r",
+							"        CamposRequeridos.forEach(function(campo) {\r",
+							"            pm.expect(producto).to.have.property(campo);\r",
+							"            pm.expect(producto[campo]).to.not.be.oneOf([null, \"\", undefined]);\r",
+							"        });\r",
+							"    });\r",
+							"});"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -82,9 +103,174 @@
 		},
 		{
 			"name": "API 3: Get All Brands List",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response Code = 200\", function () {\r",
+							"    var jsonData = pm.response.json() ;\r",
+							"    pm.expect(jsonData.responseCode).to.eql(200) ;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"La respuesta contiene una lista de marcas\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.be.an(\"object\")\r",
+							"    pm.expect(jsonData.brands).to.be.an(\"array\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Cada marca tiene los campos requeridos y no están vacíos\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    var CamposRequeridos = [\"id\", \"brand\"];\r",
+							"\r",
+							"    jsonData.brands.forEach(function(brand) {\r",
+							"        CamposRequeridos.forEach(function(campo) {\r",
+							"            pm.expect(brand).to.have.property(campo);\r",
+							"            pm.expect(brand[campo]).to.not.be.oneOf([null, \"\", undefined]);\r",
+							"        });\r",
+							"    });\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/brandsList",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"brandsList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API 4: PUT To All Brands List",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response code = 405\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"\tpm.expect(jsonData.responseCode).to.eql(405);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response message = 'This request method is not supported'\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.message).to.eql(\"This request method is not supported.\");\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/brandsList",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"brandsList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API 5: POST To Search Product",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"var productList = [\"dress\", \"tops\", \"saree\", \"tshirt\", \"jeans\", \"tops & shirts\"];\r",
+							"\r",
+							"var randomProduct = productList[Math.floor(Math.random() * productList.length)];\r",
+							"\r",
+							"pm.collectionVariables.set(\"search_product\", randomProduct);"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response Code = 200)\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.responseCode).to.eql(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"La respuesta contiene una lista de marcas\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.be.an(\"object\")\r",
+							"    pm.expect(jsonData.products).to.be.an(\"array\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Todos los productos tienen los campos requeridos y no están vacíos\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    var CamposRequeridos = [\"id\", \"name\", \"price\", \"brand\", \"category\"];\r",
+							"    \r",
+							"    jsonData.products.forEach(function(producto) {\r",
+							"        CamposRequeridos.forEach(function(campo) {\r",
+							"            pm.expect(producto).to.have.property(campo);\r",
+							"            pm.expect(producto[campo]).to.not.be.oneOf([null, \"\", undefined]);\r",
+							"        });\r",
+							"    });\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "search_product",
+							"value": "{{search_product}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{URL}}/searchProduct",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"searchProduct"
+					]
+				}
 			},
 			"response": []
 		}
@@ -116,6 +302,10 @@
 			"key": "URL",
 			"value": "",
 			"type": "string"
+		},
+		{
+			"key": "search_product",
+			"value": ""
 		}
 	]
 }
