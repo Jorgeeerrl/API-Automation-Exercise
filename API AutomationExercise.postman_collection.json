@@ -54,11 +54,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}/productsList",
+					"raw": "https://automationexercise.com/api/productsList",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"productsList"
 					]
 				}
@@ -100,11 +103,15 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}/productsList",
+					"raw": "https://www.automationexercise.com/api/productsList",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"www",
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"productsList"
 					]
 				}
@@ -159,11 +166,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}/brandsList",
+					"raw": "https://www.automationexercise.com/api/brandsList",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"www",
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"brandsList"
 					]
 				}
@@ -205,11 +216,15 @@
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}/brandsList",
+					"raw": "https://www.automationexercise.com/api/brandsList",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"www",
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"brandsList"
 					]
 				}
@@ -288,11 +303,15 @@
 					]
 				},
 				"url": {
-					"raw": "{{URL}}/searchProduct",
+					"raw": "https://www.automationexercise.com/api/searchProduct",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"www",
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"searchProduct"
 					]
 				}
@@ -334,11 +353,15 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}/searchProduct",
+					"raw": "https://www.automationexercise.com/api/searchProduct",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"www",
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"searchProduct"
 					]
 				}
@@ -502,11 +525,14 @@
 					]
 				},
 				"url": {
-					"raw": "{{URL}}/createAccount",
+					"raw": "https://automationexercise.com/api/createAccount",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"createAccount"
 					]
 				}
@@ -664,11 +690,14 @@
 					]
 				},
 				"url": {
-					"raw": "{{URL}}/updateAccount",
+					"raw": "https://automationexercise.com/api/updateAccount",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"updateAccount"
 					]
 				}
@@ -718,11 +747,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}/getUserDetailByEmail?email={{email}}",
+					"raw": "https://automationexercise.com/api/getUserDetailByEmail?email={{email}}",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"getUserDetailByEmail"
 					],
 					"query": [
@@ -795,11 +827,15 @@
 					]
 				},
 				"url": {
-					"raw": "{{URL}}/verifyLogin",
+					"raw": "https://www.automationexercise.com/api/verifyLogin",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"www",
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"verifyLogin"
 					]
 				}
@@ -851,11 +887,15 @@
 					]
 				},
 				"url": {
-					"raw": "{{URL}}/verifyLogin",
+					"raw": "https://www.automationexercise.com/api/verifyLogin",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"www",
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"verifyLogin"
 					]
 				}
@@ -897,11 +937,15 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}/verifyLogin",
+					"raw": "https://www.automationexercise.com/api/verifyLogin",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"www",
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"verifyLogin"
 					]
 				}
@@ -958,11 +1002,15 @@
 					]
 				},
 				"url": {
-					"raw": "{{URL}}/verifyLogin",
+					"raw": "https://www.automationexercise.com/api/verifyLogin",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"www",
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"verifyLogin"
 					]
 				}
@@ -1019,11 +1067,15 @@
 					]
 				},
 				"url": {
-					"raw": "{{URL}}/deleteAccount",
+					"raw": "https://www.automationexercise.com/api/deleteAccount",
+					"protocol": "https",
 					"host": [
-						"{{URL}}"
+						"www",
+						"automationexercise",
+						"com"
 					],
 					"path": [
+						"api",
 						"deleteAccount"
 					]
 				}
