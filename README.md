@@ -20,7 +20,7 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 200</li>       
     <li class="list item"><strong>Response JSON:</strong> All products list</li>
 </ul>
-
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API1%20-%20Post-req.jpg" width="450" />
 &nbsp;
 </details>
 <img>
