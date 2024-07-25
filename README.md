@@ -50,9 +50,10 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 200</li>       
     <li class="list item"><strong>Response JSON:</strong> All brands list</li>
 </ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API3%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<br>
 
 <details>
   <summary><strong>✅API 4: PUT To All Brands List</strong></summary>
@@ -64,9 +65,10 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 405</li>       
     <li class="list item"><strong>Response Message:</strong> This request method is not supported.</li>
 </ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API4%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<br>
 
 <details>
   <summary><strong>✅API 5: POST To Search Product</strong></summary>
@@ -79,9 +81,11 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 200</li>       
     <li class="list item"><strong>Response JSON:</strong> Searched products list</li>
 </ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API5%20-%20Pre-req.jpg" width="450" />
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API5%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<br>
 
 <details>
   <summary><strong>✅API 6: POST To Search Product without search_product parameter</strong></summary>
@@ -93,9 +97,10 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 400</li>       
     <li class="list item"><strong>Response Message:</strong> Bad request, search_product parameter is missing in POST request.</li>
 </ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API6%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<br>
 
 <details>
   <summary><strong>✅API 7: POST To Verify Login with valid details</strong></summary>
@@ -108,9 +113,12 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 200</li>       
     <li class="list item"><strong>Response Message:</strong> User exists!</li>
 </ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API7%20-%20Body.jpg" width="450" />
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API7%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<br>
+
 <details>
   <summary><strong>✅API 8: POST To Verify Login without email parameter</strong></summary>
 &nbsp;
@@ -122,9 +130,10 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 400</li>       
     <li class="list item"><strong>Response Message:</strong> Bad request, email or password parameter is missing in POST request.</li>
 </ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API8%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<br>
 
 <details>
   <summary><strong>✅API 9: DELETE To Verify Login</strong></summary>
@@ -136,9 +145,10 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 405</li>       
     <li class="list item"><strong>Response Message:</strong> This request method is not supported.</li>
 </ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API9%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<br>
 
 <details>
   <summary><strong>✅API 10: POST To Verify Login with invalid details</strong></summary>
@@ -151,9 +161,10 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 404</li>       
     <li class="list item"><strong>Response Message:</strong> User not found!</li>
 </ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API10%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<br>
 
 <details>
   <summary><strong>✅API 11: POST To Create/Register User Account</strong></summary>
@@ -166,9 +177,12 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 201</li>       
     <li class="list item"><strong>Response Message:</strong> User created!</li>
 </ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Body.jpg" width="450" />
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Pre-req.jpg" width="450" />
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<br>
 
 <details>
   <summary><strong>✅API 12: DELETE METHOD To Delete User Account</strong></summary>
@@ -181,9 +195,10 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 200</li>       
     <li class="list item"><strong>Response Message:</strong> Account deleted!</li>
 </ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API12%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<br>
 
 <details>
   <summary><strong>✅API 13: PUT METHOD To Update User Account</strong></summary>
@@ -196,9 +211,12 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 200</li>       
     <li class="list item"><strong>Response Message:</strong> User updated!</li>
 </ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Body.jpg" width="450" />
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Pre-req.jpg" width="450" />
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<br>
 
 <details>
   <summary><strong>✅API 14: GET user account detail by email</strong></summary>
@@ -211,8 +229,9 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 200</li>       
     <li class="list item"><strong>Response JSON:</strong> User Detail</li>
 </ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API14%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<br>
 
 
