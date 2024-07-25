@@ -220,10 +220,10 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Message:</strong> User updated!</li>
 </ul>
 <div>
-  <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Body.jpg" height="400" />
+  <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Body.jpg" height="350" />
   <div style="display: inline-block;">
-    <img align="top" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Pre-req.jpg" height="200" />
-    <img align="bottom" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Post-req.jpg" height="200" />
+    <img align="top" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Pre-req.jpg" height="175" />
+    <img align="bottom" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Post-req.jpg" height="175" />
   </div>
 </div>
 <br clear="left"/>
