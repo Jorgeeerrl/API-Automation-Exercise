@@ -5,16 +5,19 @@
 Este proyecto tiene como objetivo automatizar la interacción con las APIs de un sitio web utilizando una colección de Postman. La automatización permite realizar pruebas y validar el correcto funcionamiento de las APIs, asegurando que los servicios web funcionen según lo esperado.
 
 ## Características del Proyecto
-- **Automatización Completa:** Todas las pruebas de las APIs se ejecutan automáticamente, lo que facilita la validación continua del sistema.
-- **Validaciones Detalladas:** Las respuestas de las APIs son verificadas para asegurar que contengan los datos esperados y que los códigos de estado sean correctos.
-- **Variables Dinámicas:** Uso de variables para manejar datos dinámicos como nombres de usuarios, productos, etc.
-- **Pruebas Predefinidas:** Scripts de prueba predefinidos que validan múltiples escenarios de uso, incluyendo casos con datos válidos e inválidos.
+- **Ejecución Automática de Pruebas:** Todas las pruebas de las APIs se ejecutan de forma automatizada mediante la integración de Postman con Newman, lo que permite la validación continua del sistema sin intervención manual.
+- **Validaciones Exhaustivas:** Se verifican las respuestas de las APIs para asegurar que contengan los datos esperados y que los códigos de estado sean correctos. Esto incluye la validación de esquemas JSON y la verificación de valores específicos en las respuestas.
+- **Manejo de Variables Dinámicas:** Se utilizan variables para gestionar datos dinámicos como nombres de usuarios, productos, etc., facilitando la reutilización y la flexibilidad en las pruebas.
+- **Diversidad de Escenarios de Prueba:** Se incluyen scripts de prueba predefinidos que validan múltiples escenarios de uso, abarcando tanto casos con datos válidos como inválidos. Esto asegura una cobertura amplia y detallada de las posibles interacciones con las APIs.
+- **Informes Detallados:** Generación de informes detallados sobre los resultados de las pruebas, incluyendo estadísticas de éxito/fallo y detalles de cada petición y respuesta, lo cual facilita el análisis y la resolución de problemas.
+- **Integración Continua:** Compatible con sistemas de integración continua (CI) como Jenkins, permitiendo la ejecución automática de pruebas en cada ciclo de desarrollo y asegurando la calidad del software en cada etapa.
+
 
 <div>
   <div style="display: inline-block;">
-    <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Body.jpg" height="175" />
-    <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Pre-req.jpg" height="175" />
-    <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API5%20-%20Post-req.jpg" height="175" />
+    <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Body.jpg" height="185" />
+    <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Pre-req.jpg" height="185" />
+    <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API5%20-%20Post-req.jpg" height="185" />
 </div>
 <br clear="left"/>
 
