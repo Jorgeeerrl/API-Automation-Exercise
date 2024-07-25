@@ -11,9 +11,10 @@ Este proyecto tiene como objetivo automatizar la interacción con las APIs de un
 - **Pruebas Predefinidas:** Scripts de prueba predefinidos que validan múltiples escenarios de uso, incluyendo casos con datos válidos e inválidos.
 
 <div>
-  <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Body.jpg" height="200" />
-  <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Pre-req.jpg" height="200" />
-  <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API5%20-%20Post-req.jpg" height="200" />
+  <div style="display: inline-block;">
+    <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Body.jpg" height="200" />
+    <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Pre-req.jpg" height="200" />
+    <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API5%20-%20Post-req.jpg" height="200" />
 </div>
 <br clear="left"/>
 
