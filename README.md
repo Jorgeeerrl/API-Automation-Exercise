@@ -81,8 +81,10 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 200</li>       
     <li class="list item"><strong>Response JSON:</strong> Searched products list</li>
 </ul>
-<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API5%20-%20Pre-req.jpg" width="450" />
-<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API5%20-%20Post-req.jpg" width="450" />
+<div>
+  <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API5%20-%20Pre-req.jpg" height="200" />
+  <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API5%20-%20Post-req.jpg" height="200" />
+</div>
 <br clear="left"/>
 &nbsp;
 </details>
@@ -113,8 +115,10 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 200</li>       
     <li class="list item"><strong>Response Message:</strong> User exists!</li>
 </ul>
-<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API7%20-%20Body.jpg" width="450" />
-<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API7%20-%20Post-req.jpg" width="450" />
+<div>
+  <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API7%20-%20Body.jpg" height="200" />
+  <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API7%20-%20Post-req.jpg" height="200" />
+</div>
 <br clear="left"/>
 &nbsp;
 </details>
@@ -177,9 +181,11 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 201</li>       
     <li class="list item"><strong>Response Message:</strong> User created!</li>
 </ul>
-<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Body.jpg" width="450" />
-<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Pre-req.jpg" width="450" />
-<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Post-req.jpg" width="450" />
+<div>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Body.jpg" height="200" />
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Pre-req.jpg" height="200" />
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Post-req.jpg" height="200" />
+</div>
 <br clear="left"/>
 &nbsp;
 </details>
@@ -211,9 +217,11 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response Code:</strong> 200</li>       
     <li class="list item"><strong>Response Message:</strong> User updated!</li>
 </ul>
-<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Body.jpg" width="450" />
-<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Pre-req.jpg" width="450" />
-<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Post-req.jpg" width="450" />
+<div>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Body.jpg" height="200" />
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Pre-req.jpg" height="200" />
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API13%20-%20Post-req.jpg" height="200" />
+</div>
 <br clear="left"/>
 &nbsp;
 </details>
