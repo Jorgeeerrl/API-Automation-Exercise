@@ -2,7 +2,7 @@
 <br clear="left"/>
 
 # Proyecto de Automatización de APIs
-Este proyecto tiene como objetivo automatizar la interacción con las APIs de un sitio web utilizando una colección de Postman. La automatización permite realizar pruebas y validar el correcto funcionamiento de las APIs, asegurando que los servicios web funcionen según lo esperado.
+Este proyecto tiene como objetivo automatizar la interacción con las APIs del sitio web [www.automationexercise.com](https://www.automationexercise.com/) utilizando una colección de Postman. Automatizándolo podemos realizar pruebas y validar el correcto funcionamiento de las APIs, asegurando que los servicios web funcionen según lo esperado y facilitando la validación continua y la detección de errores de manera eficiente.
 
 ## Características del Proyecto
 - **Ejecución Automática de Pruebas:** Todas las pruebas de las APIs se ejecutan de forma automatizada mediante la integración de Postman con Newman, lo que permite la validación continua del sistema sin intervención manual.
@@ -10,7 +10,7 @@ Este proyecto tiene como objetivo automatizar la interacción con las APIs de un
 - **Manejo de Variables Dinámicas:** Se utilizan variables para gestionar datos dinámicos como nombres de usuarios, productos, etc., facilitando la reutilización y la flexibilidad en las pruebas.
 - **Diversidad de Escenarios de Prueba:** Se incluyen scripts de prueba predefinidos que validan múltiples escenarios de uso, abarcando tanto casos con datos válidos como inválidos. Esto asegura una cobertura amplia y detallada de las posibles interacciones con las APIs.
 - **Informes Detallados:** Generación de informes detallados sobre los resultados de las pruebas, incluyendo estadísticas de éxito/fallo y detalles de cada petición y respuesta, lo cual facilita el análisis y la resolución de problemas.
-- **Integración Continua:** Compatible con sistemas de integración continua (CI) como Jenkins, permitiendo la ejecución automática de pruebas en cada ciclo de desarrollo y asegurando la calidad del software en cada etapa.
+- **Integración Continua:** Es compatible con sistemas de integración continua (CI) como Jenkins, permitiendo la ejecución automática de pruebas.
 
 
 <div>
@@ -21,8 +21,29 @@ Este proyecto tiene como objetivo automatizar la interacción con las APIs de un
 </div>
 <br clear="left"/>
 
+
+## Estructura del Proyecto
+
+```
+API Automation Exercise/
+├── API AutomationExercise.postman_collection.json
+├── README.md
+├── .git/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+└── newman/
+    └── API AutomationExercise-ResultadosTests.html
+```
+<lu>
+    <li class="list item"><strong>API AutomationExercise.postman_collection.json:</strong> Colección de Postman con las APIs automatizadas.</li>         
+    <li class="list item"><strong>README.md:</strong> Archivo de documentación del proyecto.</li>         
+    <li class="list item"><strong>.git/</strong> Archivos de configuración de Git.</li>       
+    <li class="list item"><strong>.github/:</strong> Workflows de GitHub Actions para la Integración Continua del proyecto.</li>       
+    <li class="list item"><strong>newman/:</strong> Reportes generados por Newman.</li>
+</lu>
+
 ## APIs Automatizadas
-A continuación, se detalla la lista de las APIs que han sido automatizadas en este proyecto:
 
 <details>
   <summary><strong>✅API 1: Get All Products List</strong></summary>
@@ -260,4 +281,21 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
 &nbsp;
 </details>
 
+## Instalación
 
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/Jorgeeerrl/API-Automation-Exercise
+    cd proyecto
+    ```
+
+2. Instala las dependencias necesarias:
+    ```bash
+    npm install -g newman
+    ```
+
+## Uso
+
+Para ejecutar las pruebas automatizadas, utiliza el siguiente comando:
+```bash
+newman run API\ AutomationExercise.postman_collection.json
