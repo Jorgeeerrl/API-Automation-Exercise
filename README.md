@@ -1,3 +1,6 @@
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/logoautomationexercise.png" width="450" />
+<br clear="left"/>
+
 # Proyecto de Automatización de APIs
 Este proyecto tiene como objetivo automatizar la interacción con las APIs de un sitio web utilizando una colección de Postman. La automatización permite realizar pruebas y validar el correcto funcionamiento de las APIs, asegurando que los servicios web funcionen según lo esperado.
 
@@ -6,6 +9,13 @@ Este proyecto tiene como objetivo automatizar la interacción con las APIs de un
 - **Validaciones Detalladas:** Las respuestas de las APIs son verificadas para asegurar que contengan los datos esperados y que los códigos de estado sean correctos.
 - **Variables Dinámicas:** Uso de variables para manejar datos dinámicos como nombres de usuarios, productos, etc.
 - **Pruebas Predefinidas:** Scripts de prueba predefinidos que validan múltiples escenarios de uso, incluyendo casos con datos válidos e inválidos.
+
+<div>
+  <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Body.jpg" height="200" />
+  <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API11%20-%20Pre-req.jpg" height="200" />
+  <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API5%20-%20Post-req.jpg" height="200" />
+</div>
+<br clear="left"/>
 
 ## APIs Automatizadas
 A continuación, se detalla la lista de las APIs que han sido automatizadas en este proyecto:
