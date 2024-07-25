@@ -21,6 +21,198 @@ A continuación, se detalla la lista de las APIs que han sido automatizadas en e
     <li class="list item"><strong>Response JSON:</strong> All products list</li>
 </ul>
 <img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API1%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
 &nbsp;
 </details>
-<img>
+
+<details>
+  <summary><strong>✅API 2: POST To All Products List</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/productsList</li>         
+    <li class="list item"><strong>Request Method:</strong> POST</li>         
+    <li class="list item"><strong>Response Code:</strong> 405</li>       
+    <li class="list item"><strong>Response Message:</strong> This request method is not supported.</li>
+</ul>
+<img align="left" src="https://github.com/Jorgeeerrl/API-Automation-Exercise/blob/main/recursos/API2%20-%20Post-req.jpg" width="450" />
+<br clear="left"/>
+&nbsp;
+</details>
+
+<details>
+  <summary><strong>✅API 3: Get All Brands List</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/brandsList</li>         
+    <li class="list item"><strong>Request Method:</strong> GET</li>         
+    <li class="list item"><strong>Response Code:</strong> 200</li>       
+    <li class="list item"><strong>Response JSON:</strong> All brands list</li>
+</ul>
+&nbsp;
+</details>
+<br>
+
+<details>
+  <summary><strong>✅API 4: PUT To All Brands List</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/brandsList</li>         
+    <li class="list item"><strong>Request Method:</strong> PUT</li>         
+    <li class="list item"><strong>Response Code:</strong> 405</li>       
+    <li class="list item"><strong>Response Message:</strong> This request method is not supported.</li>
+</ul>
+&nbsp;
+</details>
+<br>
+
+<details>
+  <summary><strong>✅API 5: POST To Search Product</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/searchProduct</li>         
+    <li class="list item"><strong>Request Method:</strong> POST</li> 
+    <li class="list item"><strong>Request Parameter:</strong> search_product (For example: top, tshirt, jean)</li>        
+    <li class="list item"><strong>Response Code:</strong> 200</li>       
+    <li class="list item"><strong>Response JSON:</strong> Searched products list</li>
+</ul>
+&nbsp;
+</details>
+<br>
+
+<details>
+  <summary><strong>✅API 6: POST To Search Product without search_product parameter</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/searchProduct</li>         
+    <li class="list item"><strong>Request Method:</strong> POST</li>         
+    <li class="list item"><strong>Response Code:</strong> 400</li>       
+    <li class="list item"><strong>Response Message:</strong> Bad request, search_product parameter is missing in POST request.</li>
+</ul>
+&nbsp;
+</details>
+<br>
+
+<details>
+  <summary><strong>✅API 7: POST To Verify Login with valid details</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/verifyLogin</li>         
+    <li class="list item"><strong>Request Method:</strong> POST</li>         
+    <li class="list item"><strong>Request Parameters:</strong> email, password</li>       
+    <li class="list item"><strong>Response Code:</strong> 200</li>       
+    <li class="list item"><strong>Response Message:</strong> User exists!</li>
+</ul>
+&nbsp;
+</details>
+<br>
+<details>
+  <summary><strong>✅API 8: POST To Verify Login without email parameter</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/verifyLogin</li>         
+    <li class="list item"><strong>Request Method:</strong> POST</li>         
+    <li class="list item"><strong>Request Parameter:</strong> password</li>       
+    <li class="list item"><strong>Response Code:</strong> 400</li>       
+    <li class="list item"><strong>Response Message:</strong> Bad request, email or password parameter is missing in POST request.</li>
+</ul>
+&nbsp;
+</details>
+<br>
+
+<details>
+  <summary><strong>✅API 9: DELETE To Verify Login</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/verifyLogin</li>         
+    <li class="list item"><strong>Request Method:</strong> DELETE</li>         
+    <li class="list item"><strong>Response Code:</strong> 405</li>       
+    <li class="list item"><strong>Response Message:</strong> This request method is not supported.</li>
+</ul>
+&nbsp;
+</details>
+<br>
+
+<details>
+  <summary><strong>✅API 10: POST To Verify Login with invalid details</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/verifyLogin</li>         
+    <li class="list item"><strong>Request Method:</strong> POST</li>         
+    <li class="list item"><strong>Request Parameters:</strong> email, password (invalid values)</li>       
+    <li class="list item"><strong>Response Code:</strong> 404</li>       
+    <li class="list item"><strong>Response Message:</strong> User not found!</li>
+</ul>
+&nbsp;
+</details>
+<br>
+
+<details>
+  <summary><strong>✅API 11: POST To Create/Register User Account</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/createAccount</li>         
+    <li class="list item"><strong>Request Method:</strong> POST</li>         
+    <li class="list item"><strong>Request Parameters:</strong> name, email, password, title (for example: Mr, Mrs, Miss), birth_date, birth_month, birth_year, firstname, lastname, company, address1, address2, country, zipcode, state, city, mobile_number</li>       
+    <li class="list item"><strong>Response Code:</strong> 201</li>       
+    <li class="list item"><strong>Response Message:</strong> User created!</li>
+</ul>
+&nbsp;
+</details>
+<br>
+
+<details>
+  <summary><strong>✅API 12: DELETE METHOD To Delete User Account</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/deleteAccount</li>         
+    <li class="list item"><strong>Request Method:</strong> DELETE</li>         
+    <li class="list item"><strong>Request Parameters:</strong> email, password</li>       
+    <li class="list item"><strong>Response Code:</strong> 200</li>       
+    <li class="list item"><strong>Response Message:</strong> Account deleted!</li>
+</ul>
+&nbsp;
+</details>
+<br>
+
+<details>
+  <summary><strong>✅API 13: PUT METHOD To Update User Account</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/updateAccount</li>         
+    <li class="list item"><strong>Request Method:</strong> PUT</li>         
+    <li class="list item"><strong>Request Parameters:</strong> name, email, password, title (for example: Mr, Mrs, Miss), birth_date, birth_month, birth_year, firstname, lastname, company, address1, address2, country, zipcode, state, city, mobile_number</li>       
+    <li class="list item"><strong>Response Code:</strong> 200</li>       
+    <li class="list item"><strong>Response Message:</strong> User updated!</li>
+</ul>
+&nbsp;
+</details>
+<br>
+
+<details>
+  <summary><strong>✅API 14: GET user account detail by email</strong></summary>
+&nbsp;
+
+<ul>                          
+    <li class="list item"><strong>API URL:</strong> https://automationexercise.com/api/getUserDetailByEmail</li>         
+    <li class="list item"><strong>Request Method:</strong> GET</li>         
+    <li class="list item"><strong>Request Parameters:</strong> email</li>       
+    <li class="list item"><strong>Response Code:</strong> 200</li>       
+    <li class="list item"><strong>Response JSON:</strong> User Detail</li>
+</ul>
+&nbsp;
+</details>
+<br>
+
+
